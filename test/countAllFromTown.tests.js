@@ -1,10 +1,10 @@
 describe('test CountAllFromTown', function () {
-    it('should return an empty string', function () {
+    it('should return 3 if the are three registration number from stellies', function () {
         assert.equal(fromStellies, 3)
 
     });
 
-    it('should return an empty string', function () {
+    it('should return 1 if the is one number from kuilsriver', function () {
         assert.equal(fromKuilsriver, 1)
     });
 });

@@ -8,7 +8,7 @@ describe('Test my greet function' , function(){
 
     });
     it('this should return number ' , function(){
-        assert.equal( greet('2'), 'Hello, 2');
+        assert.equal( greet('5'), 'Hello, 5');
 
     });
 });

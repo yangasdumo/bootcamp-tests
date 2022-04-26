@@ -8,7 +8,7 @@ describe('Transport Fee Function', function(){
         assert.equal(transportFee('afternoon'), 'R10');
 
     }); 
-    it('should return free for default', function(){
+    it('should return free for nightshift', function(){
         assert.equal(transportFee('nightshift'), 'free', 'for night shift return free');
 
     }); 
