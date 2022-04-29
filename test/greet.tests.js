@@ -1,13 +1,13 @@
 describe('Test my greet function' , function(){
-    it('this should return hello neighbour' , function(){
-        // assert.equal("hello neighbour" , greet ("neigbour"),"");
+    it(' should return hello neighbour' , function(){
+        assert.equal(greet('neighbour'), 'Hello, neighbour');
 
     });
-    it('this should return hello if no name has passed' , function(){
+    it('should return hello if no name has passed' , function(){
         assert.equal( greet(''), 'Hello, ');
 
     });
-    it('this should return number ' , function(){
+    it('should return number ' , function(){
         assert.equal( greet('5'), 'Hello, 5');
 
     });
