@@ -1,6 +1,6 @@
 describe('test my Bellivelle function' , function(){
     
-    it('should return true if the registration numberth starts with CY', function(){
+    it('should return true if the registration numbers starts with CY', function(){
         assert.equal(isFromBellville("CY 123"), true);
     });
     it('should return false if the registration numbers is not from bellville', function(){
