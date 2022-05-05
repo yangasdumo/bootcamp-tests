@@ -1,4 +1,7 @@
 function isFromBellville (registration) {
+      if(registration ==="") {
+        return "invalid registration"
+      }
       return registration.startsWith('CY')
   }
   
